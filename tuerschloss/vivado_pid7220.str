@@ -1,0 +1,378 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 7220
+License: Customer
+
+Current time: 	Tue Jun 20 14:58:59 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HP Taner
+User home directory: C:/Users/HP Taner
+User working directory: D:/Projelerim/VivadoHapra/tuerschloss
+User country: 	DE
+User language: 	de
+User locale: 	de_DE
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Projelerim/VivadoHapra/tuerschloss/vivado.log
+Vivado journal file location: 	D:/Projelerim/VivadoHapra/tuerschloss/vivado.jou
+Engine tmp dir: 	D:/Projelerim/VivadoHapra/tuerschloss/.Xil/Vivado-7220-LAPTOP-HP-TANER
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	157 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,020 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 114 MB (+117036kb) [00:00:07]
+// [Engine Memory]: 1,020 MB (+918243kb) [00:00:07]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Projelerim\VivadoHapra\tuerschloss\tuerschloss.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Projelerim/VivadoHapra/tuerschloss/tuerschloss.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Projelerim/VivadoHapra/tuerschloss/tuerschloss.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  3157 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/23, 2:59:03 PM CEST
+// Project name: tuerschloss; location: D:/Projelerim/VivadoHapra/tuerschloss; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1035.406 ; gain = 0.000 
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 132 MB (+12673kb) [00:00:21]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tuerschloss(Behavioral) (tuerschloss.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tuerschloss(Behavioral) (tuerschloss.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("tuerschloss.vhd", 308, 192); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 528, 162); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 486, 203); // bP (w, cs)
+// Elapsed time: 66 seconds
+selectCodeEditor("tuerschloss.vhd", 188, 91); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 155, 185); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tuerschloss(Behavioral) (tuerschloss.vhd), Debouncing : Debounce(Behavioral) (debounce.vhd)]", 2, false); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, tuerschloss.xdc]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, tuerschloss.xdc]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("tuerschloss.xdc", 503, 240); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 748, 15); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 748, 15, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.xdc", 775, 109); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 780, 18); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("tuerschloss.xdc", 295, 21); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 295, 21, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.xdc", 296, 13); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 296, 13, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tuerschloss.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 797, 9); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 658, 93); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectCodeEditor("tuerschloss.xdc", 680, 29); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 745, 14); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 808, 11); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 779, 73); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 477, 115); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tuerschloss(Behavioral) (tuerschloss.vhd), Debouncing : Debounce(Behavioral) (debounce.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Tuerschloss(Behavioral) (tuerschloss.vhd), Debouncing : Debounce(Behavioral) (debounce.vhd)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("debounce.vhd", 416, 55); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("debounce.vhd", 269, 175); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 164, 50); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 164, 50, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 471, 117); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("tuerschloss.vhd", 489, 120); // bP (w, cs)
+// Elapsed time: 78 seconds
+selectCodeEditor("tuerschloss.vhd", 323, 255); // bP (w, cs)
+// Elapsed time: 93 seconds
+selectCodeEditor("tuerschloss.vhd", 471, 137); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 586, 135); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.vhd", 3); // m (l, cs)
+selectCodeEditor("debounce.vhd", 401, 78); // bP (w, cs)
+typeControlKey((HResource) null, "debounce.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("debounce.vhd", 424, 157); // bP (w, cs)
+// [GUI Memory]: 139 MB (+1096kb) [00:07:36]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 470, 201); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 466, 308); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 233, 81); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "tuerschloss.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("tuerschloss.vhd", 211, 178); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 425, 110); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectCodeEditor("tuerschloss.xdc", 790, 17); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 807, 12); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 225, 78); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 615, 122); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 421, 155); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 394, 284); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("tuerschloss.vhd", 75, 217); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("tuerschloss.vhd", 54, 269); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectCodeEditor("tuerschloss.vhd", 57, 208); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 46, 234); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 183, 75); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 246, 117); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 232, 85); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 264, 114); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 272, 117); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 246, 126); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 258, 113); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 269, 160); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 74, 322); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 406, 205); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 409, 194); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 391, 200); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 245, 222); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 163, 216); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("tuerschloss.vhd", 605, 315); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 440, 196); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("tuerschloss.vhd", 45, 95); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 23, 160); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 156, 117); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 156, 117, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 137, 138); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 137, 138, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 544, 159); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 221, 229); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 198, 135); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("tuerschloss.vhd", 421, 126); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 188, 187); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 188, 187, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 148, 221); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 148, 221, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 239, 221); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 239, 221, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 131, 254); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 131, 254, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 344, 307); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 344, 307, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 239, 307); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 239, 307, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("tuerschloss.vhd", 216, 178); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("tuerschloss.vhd", 439, 153); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("tuerschloss.vhd", 463, 102); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("tuerschloss.vhd", 415, 121); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tuerschloss.vhd", 361, 169); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("tuerschloss.vhd", 587, 177); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 623, 173); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 327, 116); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 330, 116, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 2, 142); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 141, 174); // bP (w, cs)
+// Elapsed time: 35 seconds
+selectCodeEditor("tuerschloss.vhd", 187, 173); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 259, 114); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 259, 114, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "tuerschloss.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 201, 243); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 201, 243, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 453, 213); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tuerschloss.vhd", 23, 154); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 9, 166); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 56 seconds
+selectCodeEditor("tuerschloss.vhd", 412, 193); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 50, 266); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 50, 266, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 161, 262); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 161, 262, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 340, 294); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 186, 264); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("tuerschloss.vhd", 290, 262); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 302, 239); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 289, 154); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 377, 185); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 341, 228); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectCodeEditor("tuerschloss.xdc", 430, 65); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 418, 29); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("tuerschloss.vhd", 176, 218); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("tuerschloss.vhd", 544, 218); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 260, 119); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 411, 72); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectCodeEditor("tuerschloss.xdc", 687, 11); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.xdc", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.xdc", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.xdc", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "tuerschloss.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("tuerschloss.xdc", 773, 149); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 364, 87); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 343, 55); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 498, 104); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 165, 167); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 165, 167, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 420, 198); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 423, 198); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 426, 194); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tuerschloss.vhd", 1); // m (l, cs)
+selectCodeEditor("tuerschloss.vhd", 142, 159); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 142, 159, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("tuerschloss.vhd", 625, 180); // bP (w, cs)
+selectCodeEditor("tuerschloss.vhd", 221, 115); // bP (w, cs)
+// Elapsed time: 149 seconds
+selectCodeEditor("tuerschloss.vhd", 248, 111); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 78 MB. Current time: 6/20/23, 3:29:05 PM CEST

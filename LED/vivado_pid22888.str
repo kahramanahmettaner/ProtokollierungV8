@@ -1,0 +1,161 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 22888
+License: Customer
+
+Current time: 	Tue Jun 20 14:58:55 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HP Taner
+User home directory: C:/Users/HP Taner
+User working directory: D:/Projelerim/VivadoHapra/LED
+User country: 	DE
+User language: 	de
+User locale: 	de_DE
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/HP Taner/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Projelerim/VivadoHapra/LED/vivado.log
+Vivado journal file location: 	D:/Projelerim/VivadoHapra/LED/vivado.jou
+Engine tmp dir: 	D:/Projelerim/VivadoHapra/LED/.Xil/Vivado-22888-LAPTOP-HP-TANER
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,020 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 109 MB (+111685kb) [00:00:08]
+// [Engine Memory]: 1,020 MB (+918116kb) [00:00:08]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Projelerim\VivadoHapra\LED\LED.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Projelerim/VivadoHapra/LED/LED.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 53 MB. Current time: 6/20/23, 2:58:56 PM CEST
+// Tcl Message: open_project D:/Projelerim/VivadoHapra/LED/LED.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2955 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Project name: LED; location: D:/Projelerim/VivadoHapra/LED; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1036.859 ; gain = 0.000 
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 127 MB (+13393kb) [00:00:21]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 114 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LED.xdc]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LED.xdc]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LED.xdc]", 4, false); // B (F, cs)
+selectCodeEditor("LED.xdc", 622, 38); // bP (w, cs)
+selectCodeEditor("LED.xdc", 306, 29); // bP (w, cs)
+selectCodeEditor("LED.xdc", 306, 29, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "LED.xdc", 'c'); // bP (w, cs)
+// Elapsed time: 397 seconds
+selectCodeEditor("LED.xdc", 766, 33); // bP (w, cs)
+typeControlKey((HResource) null, "LED.xdc", 'c'); // bP (w, cs)
+// [GUI Memory]: 137 MB (+3652kb) [00:14:50]
+// Elapsed time: 621 seconds
+selectCodeEditor("LED.xdc", 363, 93); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED(Behavioral) (LED.vhd)]", 1, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LED(Behavioral) (LED.vhd)]", 1, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("LED.vhd", 243, 133); // bP (w, cs)
+// Elapsed time: 28 seconds
+selectCodeEditor("LED.vhd", 507, 190); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("LED.vhd", 525, 256); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED.xdc", 1); // m (l, cs)
+selectCodeEditor("LED.xdc", 401, 57); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LED.vhd", 2); // m (l, cs)
+selectCodeEditor("LED.vhd", 388, 65); // bP (w, cs)
+// Elapsed time: 72 seconds
+selectCodeEditor("LED.vhd", 57, 305); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("LED.vhd", 268, 100); // bP (w, cs)
+typeControlKey((HResource) null, "LED.vhd", 'c'); // bP (w, cs)
+// Elapsed time: 26 seconds
+selectCodeEditor("LED.vhd", 113, 154); // bP (w, cs)
+// Elapsed time: 222 seconds
+selectCodeEditor("LED.vhd", 96, 47); // bP (w, cs)
+typeControlKey((HResource) null, "LED.vhd", 'c'); // bP (w, cs)
+// Elapsed time: 145 seconds
+typeControlKey((HResource) null, "LED.vhd", 'c'); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 77 MB. Current time: 6/20/23, 3:28:57 PM CEST
+// Elapsed time: 201 seconds
+selectCodeEditor("LED.vhd", 381, 151); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("LED.vhd", 581, 252, false, true, false, false, false); // bP (w, cs) - Control Key
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');

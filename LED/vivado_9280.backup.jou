@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Jun 18 14:02:55 2023
+# Process ID: 9280
+# Current directory: D:/Projelerim/VivadoHapra/LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30548 D:\Projelerim\VivadoHapra\LED\LED.xpr
+# Log file: D:/Projelerim/VivadoHapra/LED/vivado.log
+# Journal file: D:/Projelerim/VivadoHapra/LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projelerim/VivadoHapra/LED/LED.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
